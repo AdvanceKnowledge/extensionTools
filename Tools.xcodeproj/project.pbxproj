@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE133C99219FA10A0016A7B8 /* ExtensionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE133C97219FA10A0016A7B8 /* ExtensionTools.swift */; };
+		BE133C9A219FA10A0016A7B8 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE133C98219FA10A0016A7B8 /* Const.swift */; };
 		BED44318219BF951005F858B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED44317219BF951005F858B /* AppDelegate.swift */; };
 		BED4431A219BF951005F858B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED44319219BF951005F858B /* ViewController.swift */; };
 		BED4431D219BF951005F858B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED4431B219BF951005F858B /* Main.storyboard */; };
 		BED4431F219BF951005F858B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED4431E219BF951005F858B /* Assets.xcassets */; };
 		BED44322219BF951005F858B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED44320219BF951005F858B /* LaunchScreen.storyboard */; };
-		BED4432A219BF95C005F858B /* ExtensionTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED44329219BF95C005F858B /* ExtensionTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE133C97219FA10A0016A7B8 /* ExtensionTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTools.swift; sourceTree = "<group>"; };
+		BE133C98219FA10A0016A7B8 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		BED44314219BF950005F858B /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED44317219BF951005F858B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED44319219BF951005F858B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +26,6 @@
 		BED4431E219BF951005F858B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED44321219BF951005F858B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED44323219BF951005F858B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BED44329219BF95C005F858B /* ExtensionTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE133C96219FA10A0016A7B8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				BE133C97219FA10A0016A7B8 /* ExtensionTools.swift */,
+				BE133C98219FA10A0016A7B8 /* Const.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		BED4430B219BF950005F858B = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +67,9 @@
 		BED44316219BF951005F858B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				BE133C96219FA10A0016A7B8 /* Public */,
 				BED44317219BF951005F858B /* AppDelegate.swift */,
 				BED44319219BF951005F858B /* ViewController.swift */,
-				BED44329219BF95C005F858B /* ExtensionTools.swift */,
 				BED4431B219BF951005F858B /* Main.storyboard */,
 				BED4431E219BF951005F858B /* Assets.xcassets */,
 				BED44320219BF951005F858B /* LaunchScreen.storyboard */,
@@ -139,9 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED4432A219BF95C005F858B /* ExtensionTools.swift in Sources */,
+				BE133C99219FA10A0016A7B8 /* ExtensionTools.swift in Sources */,
 				BED4431A219BF951005F858B /* ViewController.swift in Sources */,
 				BED44318219BF951005F858B /* AppDelegate.swift in Sources */,
+				BE133C9A219FA10A0016A7B8 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
